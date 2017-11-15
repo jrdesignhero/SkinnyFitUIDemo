@@ -155,3 +155,32 @@ p#closeBtn {
     cursor: pointer
 }
 #step-2,#step-3, #overlay-bg-jr,#overlay-modal-jr,input[type=hidden] { display: none; }
+
+@media(max-width: 720px) {
+  #overlay-modal-jr {
+    width: 280px;
+    margin-left: -140px;
+  }
+  #product-container-order {
+    width: 280px;
+  }
+  h3#product-sub-title {
+    font-size: 13px;
+  }
+  h2#product-title {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  h2#product-price {
+    font-size: 22px;
+  }
+  p#closeBtn {
+    font-size: 26px;
+  }
+  h4#product-description-title, h2.form-question-title {
+    font-size: 14px;
+  }
+  input, select {
+    font-size: 13px !important;
+  }
+}
